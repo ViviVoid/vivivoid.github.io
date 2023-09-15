@@ -1,0 +1,211 @@
+/*
+Name: Andy Dao
+Assignment: Schedule Web Page
+Section: 121
+*/
+
+body {
+    text-align: center;
+    background-color: ivory;
+    color: darkslateblue;
+    font-family: Calibri, serif;
+}
+
+/* https://css-tricks.com/building-a-conference-schedule-with-css-grid/ utilized to help create this */
+.schedule {
+    border: 5px grey double;
+    width: 75%;
+    padding: 1em;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    grid-template-rows:
+        [days] 2em
+        [time-0800] 1fr
+        [time-0900] 1fr
+        [time-1000] 1fr
+        [time-1100] 1fr
+        [time-1200] 1fr
+        [time-1300] 1fr
+        [time-1400] 1fr
+        [time-1500] 1fr
+        [time-1600] 1fr
+        [time-1700] 1fr;
+    grid-template-columns:
+        [times] 10%
+        [monday] 18%
+        [tuesday] 18%
+        [wednesday] 18%
+        [thursday] 18%
+        [friday] 18%;
+    grid-auto-flow: dense;
+}
+
+.schedule h3 {
+    font-family: "Courier New", serif;
+    border-radius: 5px;
+    border-width: 5px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule div {
+    border-radius: 5px;
+    border-width: 0.1em;
+    height: 85%;
+    width: 90%;
+    justify-self: center;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Broadway, serif;
+}
+
+.time-slot {
+    font-size: 0.5em;
+    text-align: center;
+    grid-column: times;
+    border-style: ridge;
+    height: 60%;
+    width: 90%;
+    justify-self: center;
+    background-color: white;
+}
+
+.day-slot {
+    font-size: 0.8em;
+    grid-row: days;
+    border-style: ridge;
+    height: 60%;
+    width: 90%;
+    justify-self: center;
+    background-color: khaki;
+    color: darkviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.FreeHour {
+    background-color: grey;
+    border: darkgray solid;
+    color: white;
+    grid-row: time-1200 / time-1300;
+}
+
+#FreeHourTue {
+    grid-column: tuesday;
+}
+
+#FreeHourThu {
+    grid-column: thursday;
+}
+
+.CSC2611-121 {
+    background-color: cyan;
+    color: red;
+    border: deepskyblue solid;
+}
+
+#CSC2611-121Mon {
+    grid-row: time-1000 / time-1100;
+    grid-column: monday;
+}
+
+#CSC2611-121Tue {
+    grid-row: time-1000 / time-1200;
+    grid-column: tuesday;
+}
+
+#CSC2611-121Fri {
+    grid-row: time-1000 / time-1100;
+    grid-column: friday;
+}
+
+.COM3001-001 {
+    background-color: lightsalmon;
+    color: slateblue;
+    border: darkorange solid;
+    grid-row: time-1200 / time-1300;
+}
+
+#COM3001-001Mon {
+    grid-column: monday;
+}
+
+#COM3001-001Wed {
+    grid-column: wednesday;
+}
+
+#COM3001-001Fri {
+    grid-column: friday;
+}
+
+.SWE2710-111 {
+    background-color: lightgreen;
+    color: darkmagenta;
+    border: forestgreen solid;
+}
+
+#SWE2710-111Tue {
+    grid-row: time-0800 / time-1000;
+    grid-column: tuesday;
+}
+
+#SWE2710-111Wed {
+    grid-row: time-0800 / time-0900;
+    grid-column: wednesday;
+}
+
+#SWE2710-111Fri {
+    grid-row: time-0800 / time-1000;
+    grid-column: friday;
+}
+
+.MTH2310-003 {
+    background-color: violet;
+    color: darkred;
+    border: darkviolet solid;
+    grid-row: time-1500 / time-1600;
+}
+
+#MTH2310-003Tue {
+    grid-column: tuesday;
+}
+
+#MTH2310-003Wed {
+    grid-column: wednesday;
+}
+
+#MTH2310-003Fri {
+    grid-column: friday;
+}
+
+.SWE2511-121 {
+    background-color: lightyellow;
+    color: darkslategray;
+    border: gold solid;
+}
+
+#SWE2511-121Tue {
+    grid-row: time-1400 / time-1500;
+    grid-column: tuesday;
+}
+
+#SWE2511-121Thu {
+    grid-row: time-1300 / time-1500;
+    grid-column: thursday;
+}
+
+#SWE2511-121Fri {
+    grid-row: time-1400 / time-1500;
+    grid-column: friday;
+}
+
+.empty {
+    border-style: ridge;
+    height: 90%;
+    background-color: white;
+}

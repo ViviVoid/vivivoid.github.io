@@ -11,6 +11,11 @@ body {
     font-family: Calibri, serif;
 }
 
+img {
+    border-radius: 30%;
+    box-shadow: 0 4px 8px 0 darkslateblue, 0 6px 20px 0 black;
+}
+
 /* https://css-tricks.com/building-a-conference-schedule-with-css-grid/ utilized to help create this */
 .schedule {
     border: 5px grey double;
@@ -30,14 +35,21 @@ body {
         [time-1400] 1fr
         [time-1500] 1fr
         [time-1600] 1fr
-        [time-1700] 1fr;
+        [time-1700] 1fr
+        [time-1800] 1fr
+        [time-1900] 1fr
+        [time-2000] 1fr
+        [time-2100] 1fr
+        [time-2200] 1fr;
     grid-template-columns:
         [times] 10%
-        [monday] 18%
-        [tuesday] 18%
-        [wednesday] 18%
-        [thursday] 18%
-        [friday] 18%;
+        [sunday] 1fr
+        [monday] 1fr
+        [tuesday] 1fr
+        [wednesday] 1fr
+        [thursday] 1fr
+        [friday] 1fr
+        [saturday] 1fr;
     grid-auto-flow: dense;
 }
 
@@ -61,7 +73,8 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    font-family: Broadway, serif;
+    font-family: "Courier New", serif;
+    font-weight: bold;
 }
 
 .time-slot {

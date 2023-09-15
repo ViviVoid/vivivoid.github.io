@@ -80,8 +80,6 @@ body {
     height: 60%;
     width: 90%;
     justify-self: center;
-    background-color: khaki;
-    color: darkviolet;
     font-style: italic;
     font-weight: bolder;
 }
@@ -89,7 +87,6 @@ body {
 .FreeHour {
     background-color: grey;
     border: darkgray solid;
-    color: white;
     grid-row: time-1200 / time-1300;
 }
 

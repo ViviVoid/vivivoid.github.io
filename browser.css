@@ -301,13 +301,24 @@ img {
     grid-column: thursday;
 }
 
+.SSE {
+    background-color: rgb(240, 240, 240);
+    color: red;
+    border: blue dashed;
+}
+
+#SSEWebDev-Wedenesday {
+    grid-row: time-1900 / time-2000;
+    grid-column: wednesday;
+}
+
 a {
     text-decoration: none black;
     color: inherit;
 }
 
 a:hover {
-    color: rgb(10, 10, 10);
+    color: rgb(50, 50, 50);
     text-decoration: underline;
 }
 

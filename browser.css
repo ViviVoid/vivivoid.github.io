@@ -303,7 +303,7 @@ img {
 
 a {
     text-decoration: none black;
-
+    color: inherit;
 }
 .empty {
     border-style: ridge;

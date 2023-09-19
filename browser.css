@@ -305,6 +305,12 @@ a {
     text-decoration: none black;
     color: inherit;
 }
+
+a:hover {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+}
+
 .empty {
     border-style: ridge;
     height: 90%;

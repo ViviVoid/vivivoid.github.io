@@ -312,6 +312,17 @@ img {
     grid-column: wednesday;
 }
 
+.Triangle {
+    color: white;
+    background-color: darkslategray;
+    border: black solid;
+}
+
+#TriangleWeekly {
+    grid-row: time-1800 / time-1900;
+    grid-column: sunday;
+}
+
 a {
     text-decoration: none black;
     color: inherit;

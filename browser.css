@@ -287,6 +287,23 @@ img {
     grid-column: thursday;
 }
 
+.Runnin {
+    background-color: slategrey;
+    border: black double;
+    grid-row: time-0800 / time-1000;
+}
+
+#RunninMonday {
+    grid-column: monday;
+}
+
+#RunninThursday {
+    grid-column: thursday;
+}
+
+a {
+    text-decoration: none black;
+}
 .empty {
     border-style: ridge;
     height: 90%;

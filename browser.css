@@ -120,6 +120,8 @@ img {
     grid-column: thursday;
 }
 
+/* Classes CSS */
+
 .CSC2611-121 {
     background-color: cyan;
     color: red;
@@ -226,6 +228,29 @@ img {
     grid-column: friday;
 }
 
+/* Extracurriculars */
+
+.EWB {
+    background-color: cadetblue;
+    border: deepskyblue solid;
+}
+
+#EWB-Weekly {
+    grid-row: time-1200 / time-1300;
+    grid-column: tuesday;
+}
+
+.SohoniAdvisingPlus {
+    background-color: darkred;
+    color: white;
+    border: red solid;
+}
+
+#RaiderSelect {
+    grid-row: time-1200 / time-1300;
+    grid-column: thursday;
+}
+
 .RRobotics {
     background-color: orangered;
     border: darkred solid;
@@ -287,20 +312,6 @@ img {
     grid-column: thursday;
 }
 
-.Runnin {
-    background-color: slategrey;
-    border: black double;
-    grid-row: time-0800 / time-1000;
-}
-
-#RunninMonday {
-    grid-column: monday;
-}
-
-#RunninThursday {
-    grid-column: thursday;
-}
-
 .SSE {
     background-color: rgb(240, 240, 240);
     color: red;
@@ -323,6 +334,23 @@ img {
     grid-column: sunday;
 }
 
+/* Run */
+
+.Runnin {
+    background-color: slategrey;
+    border: black double;
+    grid-row: time-0800 / time-1000;
+}
+
+#RunninMonday {
+    grid-column: monday;
+}
+
+#RunninThursday {
+    grid-column: thursday;
+}
+
+/* Anchor Hyperlinks */
 a {
     text-decoration: none black;
     color: inherit;
@@ -332,6 +360,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Empty Styling */
 .empty {
     border-style: ridge;
     height: 90%;

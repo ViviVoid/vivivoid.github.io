@@ -10,14 +10,24 @@ body {
     font-family: Calibri, serif;
 }
 
-img {
+#FEESH {
     border-radius: 30%;
     box-shadow: 0 4px 8px 0 darkslateblue, 0 6px 20px 0 black;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    border: black double;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* https://css-tricks.com/building-a-conference-schedule-with-css-grid/ utilized to help create this */

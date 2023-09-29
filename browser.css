@@ -250,6 +250,11 @@ body {
     grid-column: tuesday;
 }
 
+#EWB-Fundraising {
+    grid-row: time-1300 / time-1400;
+    grid-column: wednesday;
+}
+
 .SohoniAdvisingPlus {
     background-color: darkred;
     color: white;
@@ -358,6 +363,17 @@ body {
 
 #RunninThursday {
     grid-column: thursday;
+}
+
+/* Miáucoles */
+.Miáucoles {
+    background-color: lightyellow;
+    border: black double;
+}
+
+#Miáucoles {
+    grid-row: time-2200;
+    grid-column: wednesday;
 }
 
 /* Anchor Hyperlinks */

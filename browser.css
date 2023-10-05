@@ -26,8 +26,13 @@ body {
     display: flex;
     justify-content: center;
     border: black double;
-    padding: 10px;
-    margin: 10px;
+    padding: 1em;
+    margin: 5px;
+    height: 1em;
+}
+
+.nav_links a img {
+    width: 1em;
 }
 
 /* https://css-tricks.com/building-a-conference-schedule-with-css-grid/ utilized to help create this */
@@ -374,6 +379,19 @@ body {
 #Miáucoles {
     grid-row: time-2200;
     grid-column: wednesday;
+}
+
+/* League Of Legends */
+
+.LeagueOfLegends {
+    background-color: navy;
+    color: white;
+    border: black double;
+}
+
+#LeagueRankedGrinding {
+    grid-row: time-1300 / time-1600;
+    grid-column: monday;
 }
 
 /* Anchor Hyperlinks */

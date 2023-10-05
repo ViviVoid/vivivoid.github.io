@@ -1,0 +1,67 @@
+/*
+ * Class: SWE2511 - Coin Flipper DOM
+ * Name: Andy Dao
+ * Class Section: SWE 2511 121
+*/
+
+/* TODO: Document styling goes here */
+
+form {
+    display: grid;
+    width: 30em;
+    height: 6em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    font-family: Calibri, serif;
+    padding: 0.1em;
+    border: solid;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#numberCoinsBox {
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / 2;
+    grid-row-start: 1;
+}
+
+#numberFlipsBox {
+    display: flex;
+    grid-column: 1 / 2;
+    grid-row-start: 2;
+    justify-content: center;
+}
+
+form div label {
+    width: 40%;
+    border: double slategrey 2px;
+    border-radius: 10%;
+    margin: 0.3em 0.2em 0.3em 0.3em;
+    padding: 0.1em 0 0.1em 0.1em;
+    text-align: right;
+
+}
+
+form div input {
+    width: 40%;
+    margin: 0.3em 0.3em 0.3em 0;
+    padding: 0.1em 0.1em 0.1em 0;
+}
+
+#submit {
+    grid-row-start: 3;
+    width: 80%;
+    justify-self: center;
+}
+
+.errorMessage {
+    background-color: pink;
+    border: solid black;
+    white-space: nowrap;
+    font-size: 16px;
+    width: 45em;
+    margin: auto;
+}
+

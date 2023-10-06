@@ -117,19 +117,6 @@ body {
     font-weight: bold;
 }
 
-/* Schedule lengths */
-.oneHour {
-    grid-row: span 1;
-}
-
-.twoHour {
-    grid-row: span 2;
-}
-
-.threeHour {
-    grid-row: span 3;
-}
-
 .FreeHour {
     background-color: grey;
     border: darkgray solid;

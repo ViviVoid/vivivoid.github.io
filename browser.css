@@ -73,10 +73,8 @@ body {
 }
 
 .schedule h3 {
-    font-family: "Courier New", serif;
     border-radius: 5px;
     border-width: 5px;
-
     display:flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +90,6 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    font-family: "Courier New", serif;
     font-weight: bold;
 }
 
@@ -118,6 +115,19 @@ body {
     color: darkviolet;
     font-style: italic;
     font-weight: bold;
+}
+
+/* Schedule lengths */
+.oneHour {
+    grid-row: span 1;
+}
+
+.twoHour {
+    grid-row: span 2;
+}
+
+.threeHour {
+    grid-row: span 3;
 }
 
 .FreeHour {

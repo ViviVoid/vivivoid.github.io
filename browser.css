@@ -111,8 +111,7 @@ body {
     height: 60%;
     width: 90%;
     justify-self: center;
-    background-color: khaki;
-    color: darkviolet;
+    background-color: lightgray;
     font-style: italic;
     font-weight: bold;
 }
@@ -389,6 +388,17 @@ body {
 #LeagueRankedGrinding {
     grid-row: time-1300 / time-1600;
     grid-column: monday;
+}
+
+/* DnD */
+.DnD {
+    background-color: crimson;
+    border: black double;
+}
+
+#DnDDenDen {
+    grid-row: time-0800 / time-1200;
+    grid-column: sunday;
 }
 
 /* Anchor Hyperlinks */

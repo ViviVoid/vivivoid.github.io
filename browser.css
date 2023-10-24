@@ -399,6 +399,17 @@ body {
     grid-column: sunday;
 }
 
+/* Panini Time */
+.PaniniTime {
+    background-color: black;
+    border: white ridge;
+    color: white;
+}
+
+#PaniniFriday {
+    grid-row: time-1500 / time-1600;
+    grid-column: friday;
+}
 /* Anchor Hyperlinks */
 a {
     text-decoration: none black;

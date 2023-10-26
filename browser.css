@@ -76,6 +76,8 @@ body {
         [friday] 1fr
         [saturday] 1fr;
     grid-auto-flow: dense;
+
+    animation: 1s ease-in-out 0s 1 fade-up;
 }
 
 .schedule h3 {
@@ -97,6 +99,29 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    animation: 1s ease-in-out 0s 1 loading-animation;
+}
+
+@keyframes fade-up {
+    0% {
+        transform: translateY(30px);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes loading-animation {
+    0% {
+        transform: scaleX(0.9)
+    }
+
+    100% {
+        transform: scaleX(1)
+    }
 }
 
 .time-slot {

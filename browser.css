@@ -11,6 +11,14 @@ body {
 #FEESH {
     border-radius: 30%;
     box-shadow: 0 4px 8px 0 darkslateblue, 0 6px 20px 0 black;
+    transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+}
+
+#FEESH:hover {
+    box-shadow: 0 4px 40px 0 darkcyan, 0 6px 60px 0 black;
+    transform: scale(1.2) rotate(360deg);
+    -webkit-transform: scale(1.2) rotate(360deg);
 }
 
 .navbar {

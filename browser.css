@@ -441,7 +441,7 @@ body {
 
 #PaniniFriday {
     grid-row: time-1500 / time-1600;
-    grid-column: friday;
+    grid-column: thursday;
 }
 /* Anchor Hyperlinks */
 a {

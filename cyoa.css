@@ -1,0 +1,55 @@
+@keyframes highlight {
+    0% {
+        background-position: 0;
+    }
+
+    10% {
+        background-position: -100%;
+    }
+
+    20% {
+        background-position: 0;
+    }
+
+    30% {
+        background-position: -100%;
+    }
+
+    40% {
+        background-position: 100%;
+    }
+
+    50% {
+        background-position: 0;
+    }
+
+    75% {
+        background-position: 100%;
+    }
+
+    90% {
+        background-position: -100%;
+    }
+
+    100% {
+        background-position:0;
+    }
+}
+
+p:hover {
+    animation-name: highlight;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    background-size: 200%;
+    background-image: linear-gradient(to right, white 50%, transparent 50%),
+    linear-gradient(transparent 50%, #FF00FF 50%);
+}
+
+#page {
+    width: 75%;
+    display:flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}

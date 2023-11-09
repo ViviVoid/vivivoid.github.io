@@ -35,6 +35,21 @@ body {
     padding: 1em;
     margin: 5px;
     height: 1em;
+
+    color: white;
+
+    animation-name: highlight;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    background-size: 200%;
+    background-image: linear-gradient(to right, slategrey 0%, transparent 100%),
+    linear-gradient(#DD00DD, #FF00FF);
+}
+
+.nav_links:hover {
+    animation: 1s ease-in-out infinite highlight forwards;
+    -moz-animation: 1s ease-in-out infinite highlight forwards;
+    -webkit-animation: 1s ease-in-out infinite highlight forwards;
 }
 
 .nav_links a img {
@@ -100,28 +115,6 @@ body {
     justify-content: center;
     font-weight: bold;
     animation: 1s ease-in-out 0s 1 loading-animation;
-}
-
-@keyframes fade-up {
-    0% {
-        transform: translateY(30px);
-        opacity: 0
-    }
-
-    100% {
-        transform: translateY(0);
-        opacity: 1
-    }
-}
-
-@keyframes loading-animation {
-    0% {
-        transform: scaleX(0.9)
-    }
-
-    100% {
-        transform: scaleX(1)
-    }
 }
 
 .time-slot {
@@ -458,4 +451,46 @@ a:hover {
     border-style: ridge;
     height: 90%;
     background-color: white;
+}
+
+/*Start Up Animation*/
+
+@keyframes fade-up {
+    0% {
+        transform: translateY(30px);
+        opacity: 0
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes loading-animation {
+    0% {
+        transform: scaleX(0.9)
+    }
+
+    100% {
+        transform: scaleX(1)
+    }
+}
+
+@keyframes highlight {
+    0% {
+        background-position: 0;
+    }
+
+    15% {
+        background-position: -100%;
+    }
+
+    20% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position:0;
+    }
 }

@@ -1,0 +1,188 @@
+.MTH2340-004 {
+    background-color: cyan;
+    color: red;
+    border: deepskyblue solid;
+    grid-row: time-1500 / time-1600;
+}
+
+.MTH2480-004 {
+    background-color: violet;
+    color: darkred;
+    border: darkviolet solid;
+    grid-row: time-1100 / time-1200;
+}
+
+.UXD1001-001 {
+    background-color: lightsalmon;
+    color: slateblue;
+    border: darkorange solid;
+    grid-row: time-1000 / time-1100;
+}
+
+.SWE2721-121 {
+    background-color: lightgreen;
+    color: darkmagenta;
+    border: forestgreen solid;
+}
+
+.SWE2721-121Lec {
+    grid-row: time-1600 / time-1700;
+}
+
+.SWE2721-121Lab {
+    grid-row: time-1500 / time-1700;
+}
+
+.SWE2410-121 {
+    background-color: lightyellow;
+    color: darkslategray;
+    border: gold solid;
+}
+
+.SWE2410-121Lec {
+    grid-row: time-1300 / time-1400;
+}
+
+.SWE2410-121Lab {
+    grid-row: time-1300 / time-1500;
+}
+
+
+/* Extracurriculars */
+
+.EWB {
+    background-color: cadetblue;
+    border: deepskyblue solid;
+}
+
+#EWB-Weekly {
+    grid-row: time-1200 / time-1300;
+    grid-column: tuesday;
+}
+
+#EWB-Fundraising {
+    grid-row: time-1300 / time-1400;
+    grid-column: wednesday;
+    border: dashed;
+}
+
+.SohoniAdvisingPlus {
+    background-color: darkred;
+    color: white;
+    border: red solid;
+}
+
+#RaiderSelect {
+    grid-row: time-1200 / time-1300;
+    grid-column: thursday;
+}
+
+.RRobotics {
+    background-color: orangered;
+    border: darkred solid;
+}
+
+#EPC {
+    grid-row: time-1700 / time-1800;
+    grid-column: monday;
+}
+
+#RR-EBoard {
+    grid-row: time-1700 / time-1800;
+    grid-column: thursday;
+}
+
+#RRWeekly-Team {
+    grid-row: time-1800 / time-2000;
+    grid-column: friday;
+}
+
+#MEE {
+    grid-row: time-1800 / time-1900;
+    grid-column: monday;
+    background-color: black;
+    color: white;
+    border: white solid;
+}
+
+.Lunabots {
+    background-color: darkblue;
+    color: white;
+    border: black solid;
+}
+
+#TTC {
+    grid-row: time-1800 / time-1900;
+    grid-column: wednesday;
+    background-color: indianred;
+    border: red solid;
+}
+
+.MAIC {
+    background-color: deepskyblue;
+    border: darkcyan solid;
+}
+
+#MAIC-Weekly {
+    grid-row: time-1800 / time-1900;
+    grid-column: thursday;
+}
+
+.SSE {
+    background-color: rgb(240, 240, 240);
+    color: red;
+    border: blue dashed;
+}
+
+#SSEWebDev-Wedenesday {
+    grid-row: time-1900 / time-2000;
+    grid-column: wednesday;
+}
+
+.Triangle {
+    color: white;
+    background-color: darkslategray;
+    border: black solid;
+}
+
+#TriangleWeekly {
+    grid-row: time-1800 / time-1900;
+    grid-column: sunday;
+}
+
+/* Run */
+
+.Runnin {
+    background-color: slategrey;
+    border: black double;
+    grid-row: time-0800 / time-1000;
+}
+
+/* Miáucoles */
+.Miáucoles {
+    background-color: lightyellow;
+    border: black double;
+}
+
+#Miáucoles {
+    grid-row: time-2200;
+    grid-column: wednesday;
+}
+
+/* League Of Legends */
+
+.LeagueOfLegends {
+    background-color: navy;
+    color: white;
+    border: black double;
+}
+
+#LeagueRankedGrinding {
+    /*TODO*/
+}
+
+/* DnD */
+.DnD {
+    background-color: crimson;
+    border: black double;
+}

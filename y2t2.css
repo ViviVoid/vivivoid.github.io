@@ -1,7 +1,74 @@
-.MTH2340-004 {
+/* Days Of Week */
+.Sunday {
+    grid-column: sunday;
+}
+
+.Monday {
+    grid-column: monday;
+}
+
+.Tuesday {
+    grid-column: tuesday;
+}
+
+.Wednesday {
+    grid-column: wednesday;
+}
+
+.Thursday {
+    grid-column: thursday;
+}
+
+.Friday {
+    grid-column: friday;
+}
+
+.Saturday {
+    grid-column: saturday;
+}
+
+/* Classes CSS */
+
+.SWE2410-121 {
     background-color: cyan;
     color: red;
     border: deepskyblue solid;
+}
+
+#SWE2410-121Mon {
+    grid-row: time-1300 / time-1400;
+}
+
+#SWE2410-121Thu {
+    grid-row: time-1300 / time-1500;
+}
+
+#SWE2410-121Fri {
+    grid-row: time-1300 / time-1400;
+}
+
+.SWE2721-121 {
+    background-color: lightgreen;
+    color: darkmagenta;
+    border: forestgreen solid;
+}
+
+#SWE2721-121Mon {
+    grid-row: time-1600 / time-1700;
+}
+
+#SWE2721-121Wed {
+    grid-row: time-1500 / time-1700;
+}
+
+#SWE2721-121Thu {
+    grid-row: time-1600 / time-1700;
+}
+
+.MTH2340-004 {
+    background-color: lightsalmon;
+    color: slateblue;
+    border: darkorange solid;
     grid-row: time-1500 / time-1600;
 }
 
@@ -13,40 +80,11 @@
 }
 
 .UXD1001-001 {
-    background-color: lightsalmon;
-    color: slateblue;
-    border: darkorange solid;
-    grid-row: time-1000 / time-1100;
-}
-
-.SWE2721-121 {
-    background-color: lightgreen;
-    color: darkmagenta;
-    border: forestgreen solid;
-}
-
-.SWE2721-121Lec {
-    grid-row: time-1600 / time-1700;
-}
-
-.SWE2721-121Lab {
-    grid-row: time-1500 / time-1700;
-}
-
-.SWE2410-121 {
     background-color: lightyellow;
     color: darkslategray;
     border: gold solid;
+    grid-row: time-1000 / time-1100;
 }
-
-.SWE2410-121Lec {
-    grid-row: time-1300 / time-1400;
-}
-
-.SWE2410-121Lab {
-    grid-row: time-1300 / time-1500;
-}
-
 
 /* Extracurriculars */
 
@@ -89,7 +127,7 @@
 
 #RR-EBoard {
     grid-row: time-1700 / time-1800;
-    grid-column: thursday;
+    grid-column: friday;
 }
 
 #RRWeekly-Team {
@@ -98,8 +136,8 @@
 }
 
 #MEE {
-    grid-row: time-1800 / time-1900;
-    grid-column: monday;
+    grid-row: time-1900 / time-2000;
+    grid-column: tuesday;
     background-color: black;
     color: white;
     border: white solid;
@@ -109,6 +147,16 @@
     background-color: darkblue;
     color: white;
     border: black solid;
+}
+
+#LunaGeneral {
+    grid-row: time-1900 / time-2100;
+    grid-column: tuesday;
+}
+
+#LunaElecControls {
+    grid-row: time-1700 / time-1800;
+    grid-column: wednesday;
 }
 
 #TTC {
@@ -158,6 +206,14 @@
     grid-row: time-0800 / time-1000;
 }
 
+#RunninMonday {
+    grid-column: monday;
+}
+
+#RunninThursday {
+    grid-column: thursday;
+}
+
 /* Miáucoles */
 .Miáucoles {
     background-color: lightyellow;
@@ -178,11 +234,29 @@
 }
 
 #LeagueRankedGrinding {
-    /*TODO*/
+    grid-row: time-1000 / time-1300;
+    grid-column: monday;
 }
 
 /* DnD */
 .DnD {
     background-color: crimson;
     border: black double;
+}
+
+#DnDDenDen {
+    grid-row: time-0800 / time-1200;
+    grid-column: sunday;
+}
+
+/* Panini Time */
+.PaniniTime {
+    background-color: black;
+    border: white ridge;
+    color: white;
+}
+
+#PaniniFriday {
+    grid-row: time-1500 / time-1600;
+    grid-column: thursday;
 }

@@ -125,6 +125,13 @@
     grid-column: monday;
 }
 
+#FSC-Weekly {
+    grid-row: time-1200 / time-1300;
+    background-color: darkred;
+    color: white;
+    border: red solid;
+}
+
 #RR-EBoard {
     grid-row: time-1700 / time-1800;
     grid-column: friday;

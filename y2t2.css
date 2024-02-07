@@ -178,6 +178,14 @@
     border: darkcyan solid;
 }
 
+#reschMeeting1 {
+    grid-row: time-1900 / time-2000;
+}
+
+#reschMeeting2 {
+    grid-row: time-1900 / time-2000;
+}
+
 #MAIC-Weekly {
     grid-row: time-1800 / time-1900;
     grid-column: thursday;
@@ -203,6 +211,10 @@
 #TriangleWeekly {
     grid-row: time-1800 / time-1900;
     grid-column: sunday;
+}
+
+#TriangleWeeklyEBoard {
+    grid-row: time-1700 / time-1800;
 }
 
 /* Run */

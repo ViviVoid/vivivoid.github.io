@@ -191,6 +191,10 @@
     grid-column: thursday;
 }
 
+#MAICeBoard {
+    grid-row: time-1700 / time-1800;
+}
+
 .SSE {
     background-color: rgb(240, 240, 240);
     color: red;

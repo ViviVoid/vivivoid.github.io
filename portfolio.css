@@ -1,0 +1,8 @@
+ul {
+    text-align: left;
+}
+
+#Personal_Brand {
+    display: grid;
+    grid-template: auto / auto auto auto;
+}

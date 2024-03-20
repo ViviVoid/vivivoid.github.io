@@ -173,6 +173,16 @@
     border: red solid;
 }
 
+.MeTime {
+    background-color: #FF00FF;
+    border: black solid;
+}
+
+#SelfWebDev {
+    grid-row: time-1000 / time-1300;
+    grid-column: monday;
+}
+
 .MAIC {
     background-color: deepskyblue;
     border: darkcyan solid;
